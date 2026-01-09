@@ -1,6 +1,4 @@
-__pycache__/
-env
-lab.pyvenv/
+venv/
 __pycache__/
 *.pyc
-cookies.txt
+.env
