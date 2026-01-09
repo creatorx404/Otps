@@ -4,13 +4,22 @@ Follow these steps to download and set up the tool:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/creatorx404/O_tps.git
-   cd O_tps
+   git clone https://github.com/creatorx404/O_tps-91.git
+   cd O_tps-91
    ```
 
-2.** Enable the virtual environment with**
-   '''python -m venv venv
-   source venv/bin/activate'''
+2. **Enable the virtual environment with**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Add playwright integration**
+   ```bash
+   pip install playwright
+   playwright install chromium
+   playwright install firefox
+   ```
    
 3. **Install required libraries**:
    Run the following command to install all dependencies.
@@ -28,17 +37,17 @@ Once everything is installed, you can start using the tool with a simple command
 python3 core.py <phone-number>
 ```
 
-- Replace `<phone-number>` with the target phone number (e.g., `+923001234567`).
-- Ensure the phone number is in the correct format with the country code (Pakistan's country code is `+92`).
+- Replace `<phone-number>` with the target phone number (e.g., `+913001234567`).
+- Ensure the phone number is in the correct format with the country code (country code is `+91`).
 
 Example:
 ```bash
-python3 core.py +923001234567
+python3 core.py +913001234567
 ```
 To test for only one site
 
 ```bash
-python3 core.py +923001234567 --site priceoye
+python3 core.py +913001234567 --site redbus
 ```
 ## Legal Disclaimer
 
