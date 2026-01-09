@@ -1,5 +1,16 @@
-venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pdb
+venv/
+env/
+ENV/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 .env
+*.log
+*.tmp
 cookies.txt
