@@ -4,7 +4,7 @@ Follow these steps to download and set up the tool:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/creatorx404/O_tps-91.git
+   git clone https://github.com/creatorx404/Otps.git
    cd O_tps-91
    ```
 
