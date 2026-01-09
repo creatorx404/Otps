@@ -1,0 +1,9 @@
+beautifulsoup4
+httpx
+trio
+termcolor
+tqdm
+requests-toolbelt
+requests
+pycryptodome
+aiohttp
